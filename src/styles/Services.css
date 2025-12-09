@@ -1,0 +1,184 @@
+/* src/pages/Services.css */
+.services {
+  min-height: 100vh;
+  background: #f5f7fb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+.services-hero {
+  height: 260px;
+  background: linear-gradient(90deg, #1f3b8a, #1d4ed8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-hero-content {
+  max-width: 760px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 24px;
+}
+
+.services-hero-content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.services-hero-content p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.services-body {
+  max-width: 1120px;
+  margin: 32px auto 48px;
+  padding: 0 24px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.services-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px 22px;
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
+}
+
+.services-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background: #e0e7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.services-card h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.services-card ul {
+  list-style: disc;
+  padding-left: 20px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+/* WRAPPER */
+.services-wrapper {
+  width: 100%;
+  padding: 40px 20px 60px;
+  background: #fafafa;
+}
+
+/* HEADER */
+.services-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.services-header h2 {
+  font-size: 22px;
+  color: #1e40af;
+  margin-bottom: 10px;
+}
+
+.services-header p {
+  max-width: 800px;
+  margin: auto;
+  color: #444;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* GRID */
+.services-grid {
+  max-width: 1150px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARDS */
+.service-card {
+  background: #ffffff;
+  padding: 25px 22px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.service-icon {
+  font-size: 30px;
+  color: #2563eb;
+  background: #eff6ff;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-title {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* BULLET LIST */
+.service-list li {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 6px;
+}
+
+/* BLUE STRIP FOOTER */
+.advantage-section {
+  margin-top: 60px;
+  background: #1e40af;
+  padding: 45px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.advantage-box {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.advantage-box h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .advantage-section {
+    grid-template-columns: 1fr;
+  }
+}
+

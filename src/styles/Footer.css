@@ -1,0 +1,125 @@
+/* ===========================
+   FOOTER STYLING
+=========================== */
+/* 
+.main-footer {
+  width: 100%;
+  background: #0b1c2e;
+  color: #cdd4dd;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 60px;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+} */
+
+/* Optional smooth fade effect */
+/* .main-footer p {
+  margin: 0;
+  opacity: 0.9;
+} */
+
+
+/* .main-footer {
+  width: 100%;
+  padding: 40px 0;
+  text-align: center;
+  background: linear-gradient(180deg, #071627, #0b1c2e);
+  color: #dfe6ee;
+  font-size: 14px;
+  line-height: 22px;
+} */
+
+
+/* FOOTER MAIN CONTAINER */
+.footer-container {
+  width: 100%;
+  background: #0b1c2e; /* deep navy */
+  color: #dfe6ee;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin: 0;
+  /* Eidited*/
+    position:sticky;
+    top: 300px;
+}
+
+/* FOOTER CONTENT GRID */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 85%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+/* COLUMN STRUCTURE */
+.footer-col {
+  width: 23%;
+  min-width: 200px;
+}
+
+.footer-logo {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+
+.footer-about {
+  font-size: 14px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+/* TITLES */
+.footer-title {
+  font-size: 17px;
+  margin-bottom: 15px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* LINKS / TEXT LIST */
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.footer-col ul li:hover {
+  opacity: 1;
+  color: #58a6ff;
+}
+
+/* BOTTOM COPYRIGHT BAR */
+.footer-bottom {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 13px;
+  border-top: 1px solid #123047;
+  opacity: 0.85;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .footer-content {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-col {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

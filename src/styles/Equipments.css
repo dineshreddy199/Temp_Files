@@ -1,0 +1,201 @@
+/* src/pages/Equipments.css */
+.equip {
+  min-height: 100vh;
+  background: #f5f7fb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+.equip-hero {
+  height: 260px;
+  background: linear-gradient(90deg, #1e3a8a, #1d4ed8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.equip-hero-content {
+  max-width: 760px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 24px;
+}
+
+.equip-hero-content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.equip-hero-content p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.equip-body {
+  max-width: 960px;
+  margin: 32px auto 48px;
+  padding: 0 24px;
+}
+
+.equip-table-card {
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+  overflow: hidden;
+}
+
+.equip-table-header,
+.equip-row {
+  display: grid;
+  grid-template-columns: 80px 1fr 80px;
+  align-items: center;
+}
+
+.equip-table-header {
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 10px 18px;
+}
+
+.equip-row {
+  font-size: 13px;
+  padding: 10px 18px;
+  border-top: 1px solid #e5e7eb;
+  background: #ffffff;
+}
+
+.equip-row:nth-child(even) {
+  background: #f9fafb;
+}
+
+/* Edited */
+/* Main page container */
+.equipment-page {
+  width: 100%;
+  padding: 40px 0;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header section */
+.equipment-header {
+  text-align: center;
+  max-width: 800px;
+  margin-bottom: 30px;
+}
+
+.equipment-header h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #0a2a66;
+  margin-bottom: 10px;
+}
+
+.equipment-header p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Table container */
+.equipment-table-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+  overflow-x: auto;
+}
+
+/* Table styling */
+.equipment-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Table header */
+.equipment-table thead {
+  background: #0066ff;
+  color: #fff;
+}
+
+.equipment-table th {
+  padding: 14px 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Table rows */
+.equipment-table td {
+  padding: 12px 10px;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+/* Alternate row styling */
+.equipment-table tbody tr:nth-child(even) {
+  background: #f7f9fc;
+}
+
+/* Last row border removal */
+.equipment-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Features section at bottom */
+.equipment-features {
+  width: 90%;
+  max-width: 900px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.feature-box {
+  background: #f0f6ff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #dce8ff;
+}
+
+.feature-box h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0a2a66;
+  margin-bottom: 8px;
+}
+
+.feature-box p {
+  font-size: 13px;
+  color: #555;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .equipment-features {
+    grid-template-columns: 1fr;
+  }
+
+  .equipment-header h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .equipment-table th,
+  .equipment-table td {
+    font-size: 12px;
+    padding: 10px 6px;
+  }
+}

@@ -1,0 +1,247 @@
+/* src/pages/Workforce.css */
+.workforce {
+  min-height: 100vh;
+  background: #f5f7fb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+.workforce-hero {
+  height: 260px;
+  background: linear-gradient(90deg, #1d3557, #2563eb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.workforce-hero-content {
+  max-width: 760px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 24px;
+}
+
+.workforce-hero-content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.workforce-hero-content p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.workforce-body {
+  max-width: 1120px;
+  margin: 32px auto 48px;
+  padding: 0 24px;
+}
+
+.workforce-cards-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.workforce-team-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px 22px;
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
+}
+
+.workforce-team-card h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.workforce-team-card p {
+  font-size: 13px;
+  color: #4b5563;
+  margin-bottom: 8px;
+}
+
+.workforce-team-card ul {
+  font-size: 13px;
+  padding-left: 18px;
+  color: #4b5563;
+}
+
+.workforce-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+}
+
+.workforce-metric-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px 18px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.metric-value {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #2563eb;
+  margin-bottom: 4px;
+}
+
+.metric-label {
+  font-size: 13px;
+  color: #4b5563;
+}
+
+
+
+
+
+/* Edited */
+.workforce-container {
+  width: 100%;
+  padding: 50px 20px;
+  background: #ffffff;
+}
+
+.workforce-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.workforce-header h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 10px;
+}
+
+.workforce-header p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* TEAM CARDS GRID */
+.team-grid {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+/* TEAM CARD */
+.team-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* TOP BLUE BAR */
+.team-title-box {
+  background: #1e40af;
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.team-title-box h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.team-title-box p {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.team-number {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.team-label {
+  font-size: 10px;
+  margin-top: -3px;
+}
+
+/* ROLES LIST */
+.team-roles {
+  list-style: none;
+  padding: 0;
+}
+
+.team-roles li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.role-icon {
+  font-size: 14px;
+  margin-right: 6px;
+  color: #1e40af;
+}
+
+.role-name {
+  flex: 1;
+  margin-left: 8px;
+}
+
+/* SUMMARY GRID */
+.summary-grid {
+  max-width: 1100px;
+  margin: 50px auto 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+/* SUMMARY CARD */
+.summary-card {
+  background: #ffffff;
+  text-align: center;
+  padding: 22px 18px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+}
+
+.summary-card h3 {
+  color: #1e40af;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.summary-card p {
+  font-size: 13px;
+  color: #555;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  .summary-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+}

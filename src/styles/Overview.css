@@ -1,0 +1,410 @@
+/* HERO SECTION */
+/* .overview-hero {
+  width: 100%;
+  height: 420px;
+  background-image: url("");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overview-hero-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #002b67b6, #004e9ecc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.overview-hero h1 {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  margin-top: 10px;
+  width: 60%;
+  font-size: 16px;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.stat-box h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.stat-box p {
+  margin: 0;
+  font-size: 14px;
+} */
+
+/* WHO WE ARE SECTION */
+/* .who-we-are {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.who-we-are-text {
+  width: 65%;
+  margin: 10px auto;
+  color: #444;
+  font-size: 15px;
+}
+
+.wwa-box-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.wwa-box {
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 0 10px #0000001a;
+}
+
+.wwa-box h3 {
+  font-size: 18px;
+} */
+
+/* MANAGEMENT */
+/* .management-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.management-card {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #ddd;
+}
+
+.management-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.management-info h3 {
+  margin: 0;
+  font-size: 20px;
+} */
+
+/* POLICY SECTION */
+/* .policy-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 20px;
+}
+
+.policy-column {
+  width: 30%;
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 10px;
+} */
+
+
+/* HERO SECTION */
+.hero-section {
+  width: 100%;
+  height: 420px;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCJQ4QTKkPPJlaWY4_FG8zqw5K1z4bt1s8lw&s") center/cover no-repeat;
+  position: relative;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(25, 60, 120, 0.75);
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.overlay h1 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.sub-text {
+  width: 60%;
+  margin: 15px auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* STATS */
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin-top: 35px;
+}
+
+.stat-box{  /*Eidited*/
+  /* padding: 20px; */
+  height: 100px;
+  width: 160px;
+  
+  /* 1. Add a semi-transparent background color */
+  background: rgba(255, 255, 255, 0.25);
+  
+  /* 2. Apply the blur effect to the background area */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For compatibility */
+
+  /* Optional finishing touches */
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+}
+.stat-box h2 {
+  font-size: 34px;
+  margin: 0;
+}
+
+.stat-box p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* WHO WE ARE */
+.who-section {
+  text-align: center;
+  padding: 60px 140px;
+}
+.who-section h2{ 
+  color: rgb(52, 52, 255);
+}
+.who-desc {
+  width: 75%;
+  margin: 15px auto 40px;
+  color: #555;
+  font-size: 15px;
+}
+
+.features-row {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.feature-box {
+  width: 260px;
+  padding: 25px;
+  border-radius: 8px;
+  background: #fafafa;
+  box-shadow: 0 4px 12px hsla(0, 0%, 0%, 0.628);
+}
+
+.feature-box p{/*Eidited*/
+  color: #555555c2;
+}
+/* MANAGEMENT */
+.management-section {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.manager-card {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  gap: 25px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px #00000015;
+}
+
+.manager-img {
+  width: 170px;
+  height: 200px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* FOOTER SPACING FIX */
+.management-section {
+  margin-bottom: 80px;
+}
+
+
+.overview-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  background: #ffffff;
+}
+
+.overview-content {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1e40af; /* Blue */
+  margin-bottom: 15px;
+}
+
+.description {
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.bullet-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bullet-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #444;
+}
+
+.bullet-list li::before {
+  content: "✔";
+  margin-right: 10px;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.safety-box {
+  background: #eef4ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.safety-box h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #1e3a8a;
+}
+
+.safety-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.safety-grid ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.safety-grid li {
+  font-size: 15px;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.safety-grid li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-size: 20px;
+  top: -2px;
+}
+
+
+.leadership-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background: #ffffff;
+}
+
+.leadership-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.leader-image-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.leader-image {
+  width: 350px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.leader-details {
+  flex: 1.5;
+}
+
+.leader-tag {
+  color: #1e40af;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.leader-name {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #1a1a1a;
+}
+
+.leader-position {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.leader-description {
+  font-size: 15.5px;
+  line-height: 1.7;
+  color: #333;
+  max-width: 650px;
+}
+
